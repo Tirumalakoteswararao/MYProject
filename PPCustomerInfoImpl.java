@@ -11,7 +11,7 @@ import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 
-public class PPCustomerInfoImpl {
+public class CustomerInfoImpl {
 
 	public static EmailDTO FetchNotifications(String email) {
 
