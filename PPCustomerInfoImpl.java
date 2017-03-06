@@ -21,7 +21,7 @@ public class PPCustomerInfoImpl {
 		try {
 			Connection = DBConnection.getConnection();
 
-			String sql = "select *from wcp_email where EMAIL_ADDRESS=?";
+			String sql = "select *from tablename where EMAIL_ADDRESS=?";
 			PreparedStatement stmt = Connection.prepareStatement(sql);
 			stmt.setString(1, email);
 
